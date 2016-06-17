@@ -24,9 +24,10 @@ Baseado nesses pontos, foi planejado a seguinte arquitetura para esse projetos:
 
                          API Server
  
-        /                |                |            \
+            /                |                |            \
 
-DataServer 1 ...... DataServer 2 ...... DataServer 1 ...... FusionTable
+      DataServer 1     DataServer 2     DataServer 1      FusionTable
+
 
 
 Frente ao esboço de diagrama acima, foram construídos:
@@ -43,7 +44,7 @@ Frente ao esboço de diagrama acima, foram construídos:
 - Além de Rails, MySQL, JS Task Manager e JQuery, uma biblioteca chamada _Open Layer_ (http://openlayers.org/) foi aplamente utilizada para propciar a visualização dos dados gráficos (mapas) na aplicação.
 - Um dos motivos pelos quais os "Data Servers" não evoluiram como esperado foi o fato que os bancos aonde eles fossem acoplados deveriam conseguir realizar tarefas que envolvem inteligência geográfica (como seleção de dados por área). A codificação disso requeria um tempo que não houve para que se finalizasse todo o projeto. __Contudo, para aplicações que não lidem com objetos geográficos, a implementação desses serviços é de baixo custo programático__.
 
-# Futuro
+## Futuro
 
-O objetivo de deixar aqui todos os fontes desse projeto é para, quem sabe, possa ajudar a outros desenvolvedores a evoluir, aproveitar ideias. debater conceitos sobre o que foi feito e, principalmente, finalizar o projeto como forma de criarmos uma ferramenta robusta e open source para o mercado que quer lidar com geotecnologias.
+O objetivo de deixar aqui todos os fontes desse projeto é para poder ajudar a outros desenvolvedores a evoluir, aproveitar ideias, debater conceitos sobre o que foi feito e, principalmente, finalizar o projeto como forma de criarmos uma ferramenta robusta e open source para o mercado que quer lidar com geotecnologias.
 
