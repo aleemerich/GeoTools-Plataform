@@ -2,7 +2,9 @@
 
 ## Qual a finalidade deste projeto?
 
-Quando este projeto iniciou, o projeto tinha como objetivo o conteúdo da pasta "protótipo" com todas as funcionalidades ali visíveis. Com relação a tecnologia, foi colocado como meta os seguintes tópicos:
+Quando este projeto iniciou, o projeto tinha como objetivo o conteúdo navegável da pasta __"protótipo"__ com todas as funcionalidades ali visíveis. Por isso, antes de entender qualquer coisa nesse projeto, você precisa baixar essa pasta e navegar por ela, tendo em mente que o sistema se divide em 2 ambientes ("Cliente" e "Administração"). Para bavegar, não é necessário nenhuma instalação visto que são apenas arquivos HTML para se gerar um protótipo simples e nevagável.
+
+Após fechar os conceitos e funcionalidades vistas no protótipo, passou-se então a tecnologia, onde foi colocado como meta os seguintes tópicos:
 
 1. Ser um sistema onde teria o uso de mapas + informações (conceito de SIG) para N finalidades.
 2. Ser um sistema orientado a serviço, ou seja, todo o server seria baseado em RESTFul para atender as demandas de fronts, sejam eles quais forem.
