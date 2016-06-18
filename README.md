@@ -2,7 +2,7 @@
 
 ## Qual a finalidade deste projeto?
 
-Quando este projeto iniciou, o projeto tinha como objetivo o conteúdo navegável da pasta __"protótipo"__ com todas as funcionalidades ali visíveis. Por isso, antes de entender qualquer coisa nesse projeto, você precisa baixar essa pasta e navegar por ela, tendo em mente que o sistema se divide em 2 ambientes ("Cliente" e "Administração"). Para bavegar, não é necessário nenhuma instalação visto que são apenas arquivos HTML para se gerar um protótipo simples e nevagável.
+Quando este projeto iniciou, o projeto tinha como objetivo o conteúdo navegável da pasta __"protótipo"__ com todas as funcionalidades ali visíveis. Por isso, antes de entender qualquer coisa nesse projeto, você precisa baixar essa pasta e navegar por ela, tendo em mente que o sistema se divide em 2 ambientes ("Cliente" e "Administração"). Para navegar, não é necessário nenhuma instalação visto que são apenas arquivos HTML para se gerar um protótipo simples e nevagável.
 
 Após fechar os conceitos e funcionalidades vistas no protótipo, passou-se então a tecnologia, onde foi colocado como meta os seguintes tópicos:
 
