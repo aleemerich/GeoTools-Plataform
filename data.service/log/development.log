@@ -1,0 +1,1549 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 10:55:46 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `connection' for nil:NilClass):
+  app/controllers/alfa/tables_controller.rb:16:in `index'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 10:56:15 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[36m (15.0ms)[0m  [1mSHOW TABLES[0m
+Completed 200 OK in 96ms (Views: 0.0ms | ActiveRecord: 15.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:06:35 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[35m (83.0ms)[0m  SHOW TABLES
+Completed 200 OK in 85ms (Views: 0.0ms | ActiveRecord: 83.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:08:24 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[36m (13.0ms)[0m  [1mSHOW TABLES[0m
+Completed 200 OK in 15ms (Views: 0.0ms | ActiveRecord: 13.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:10:29 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[35m (15.0ms)[0m  SHOW TABLES
+Completed 200 OK in 16ms (Views: 0.0ms | ActiveRecord: 15.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:12:07 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `database' for #<ActiveRecord::ConnectionAdapters::Mysql2Adapter:0x94d48d0>):
+  app/controllers/alfa/tables_controller.rb:8:in `index'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:19:41 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `database' for ActiveRecord::Base:Class):
+  app/controllers/alfa/tables_controller.rb:8:in `index'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:20:00 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[36m (99.0ms)[0m  [1mSHOW TABLES[0m
+Completed 500 Internal Server Error in 101ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/alfa/tables_controller.rb:11:in `index'
+  app/controllers/alfa/tables_controller.rb:10:in `each'
+  app/controllers/alfa/tables_controller.rb:10:in `index'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (45.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:20:17 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[35m (103.0ms)[0m  SHOW TABLES
+Completed 500 Internal Server Error in 105ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/alfa/tables_controller.rb:11:in `index'
+  app/controllers/alfa/tables_controller.rb:10:in `each'
+  app/controllers/alfa/tables_controller.rb:10:in `index'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:20:31 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[36m (15.0ms)[0m  [1mSHOW TABLES[0m
+Completed 200 OK in 17ms (Views: 1.0ms | ActiveRecord: 15.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:21:08 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[35m (86.0ms)[0m  SHOW TABLES
+Completed 200 OK in 92ms (Views: 1.0ms | ActiveRecord: 86.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:24:14 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[36m (329.0ms)[0m  [1mSHOW TABLES[0m
+Completed 200 OK in 333ms (Views: 1.0ms | ActiveRecord: 329.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:27:20 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[35m (15.0ms)[0m  SHOW TABLES
+Completed 500 Internal Server Error in 17ms
+
+TypeError (can't convert Array into String):
+  app/controllers/alfa/tables_controller.rb:12:in `+'
+  app/controllers/alfa/tables_controller.rb:12:in `index'
+  app/controllers/alfa/tables_controller.rb:11:in `each'
+  app/controllers/alfa/tables_controller.rb:11:in `index'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:27:23 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[36m (16.0ms)[0m  [1mSHOW TABLES[0m
+Completed 500 Internal Server Error in 18ms
+
+TypeError (can't convert Array into String):
+  app/controllers/alfa/tables_controller.rb:12:in `+'
+  app/controllers/alfa/tables_controller.rb:12:in `index'
+  app/controllers/alfa/tables_controller.rb:11:in `each'
+  app/controllers/alfa/tables_controller.rb:11:in `index'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (48.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:28:00 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[35m (16.0ms)[0m  SHOW TABLES
+  [1m[36m (20.0ms)[0m  [1mDESCRIBE testeA[0m
+Completed 500 Internal Server Error in 39ms
+
+NameError (undefined local variable or method `estructure' for #<Alfa::TablesController:0x9515a00>):
+  app/controllers/alfa/tables_controller.rb:13:in `index'
+  app/controllers/alfa/tables_controller.rb:11:in `each'
+  app/controllers/alfa/tables_controller.rb:11:in `index'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:28:11 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[35m (13.0ms)[0m  SHOW TABLES
+  [1m[36m (16.0ms)[0m  [1mDESCRIBE testeA[0m
+Completed 200 OK in 34ms (Views: 1.0ms | ActiveRecord: 29.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:30:06 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[35m (14.0ms)[0m  SHOW TABLES
+  [1m[36m (20.0ms)[0m  [1mDESCRIBE testeA[0m
+Completed 500 Internal Server Error in 40ms
+
+NameError (undefined local variable or method `a' for #<Alfa::TablesController:0x9417d98>):
+  app/controllers/alfa/tables_controller.rb:13:in `index'
+  app/controllers/alfa/tables_controller.rb:11:in `each'
+  app/controllers/alfa/tables_controller.rb:11:in `index'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:30:19 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[35m (13.0ms)[0m  SHOW TABLES
+  [1m[36m (20.0ms)[0m  [1mDESCRIBE testeA[0m
+Completed 200 OK in 36ms (Views: 0.0ms | ActiveRecord: 33.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:32:11 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[35m (12.0ms)[0m  SHOW TABLES
+  [1m[36m (24.0ms)[0m  [1mDESCRIBE testeA[0m
+Completed 500 Internal Server Error in 37ms
+
+NoMethodError (undefined method `<<' for {}:Hash):
+  app/controllers/alfa/tables_controller.rb:14:in `index'
+  app/controllers/alfa/tables_controller.rb:13:in `each'
+  app/controllers/alfa/tables_controller.rb:13:in `index'
+  app/controllers/alfa/tables_controller.rb:11:in `each'
+  app/controllers/alfa/tables_controller.rb:11:in `index'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (51.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 11:32:33 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[35m (16.0ms)[0m  SHOW TABLES
+  [1m[36m (19.0ms)[0m  [1mDESCRIBE testeA[0m
+Completed 200 OK in 39ms (Views: 1.0ms | ActiveRecord: 35.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (212.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (348.0ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (16.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateAlfaTables (20140413151557)
+  [1m[35m (21.0ms)[0m  CREATE TABLE `alfa_tables` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `hash` varchar(255), `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (15.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140413151557')[0m
+  [1m[35m (13.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (13.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateAlfaTables (20140413151557)
+Migrating to RenameHashAndName (20140413152642)
+  [1m[35m (16.0ms)[0m  SHOW COLUMNS FROM `alfa_tables` LIKE 'name'
+  [1m[36m (147.0ms)[0m  [1mALTER TABLE `alfa_tables` CHANGE `name` `fullname` varchar(255) DEFAULT NULL[0m
+  [1m[35m (32.0ms)[0m  SHOW COLUMNS FROM `alfa_tables` LIKE 'hash'
+  [1m[36m (209.0ms)[0m  [1mALTER TABLE `alfa_tables` CHANGE `hash` `name` varchar(255) DEFAULT NULL[0m
+  [1m[35m (18.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140413152642')
+  [1m[36m (16.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 12:37:25 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[35mAlfa::Table Load (17.0ms)[0m  SELECT `alfa_tables`.* FROM `alfa_tables` 
+  [1m[36m (17.0ms)[0m  [1mDESCRIBE 5966c0eb721df9a716ea2c75a0cbc8d7d5f92770c7c5b00ef4d603575266ce89[0m
+Completed 200 OK in 221ms (Views: 2.0ms | ActiveRecord: 91.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 13:45:37 -0300 2014
+
+SyntaxError (D:/Insync/alessandro.emerich@gmail.com/Rails/apps/geoduopo.data.arich.com.br/app/controllers/alfa/tables_controller.rb:34: syntax error, unexpected kOR, expecting kTHEN or ':' or '\n' or ';'
+...w["Type"].index("int").nil? or !row["Type"].index("decimal")...
+                              ^
+D:/Insync/alessandro.emerich@gmail.com/Rails/apps/geoduopo.data.arich.com.br/app/controllers/alfa/tables_controller.rb:36: syntax error, unexpected kWHEN, expecting kEND
+          when !row["Type"].index("date").nil?
+              ^
+D:/Insync/alessandro.emerich@gmail.com/Rails/apps/geoduopo.data.arich.com.br/app/controllers/alfa/tables_controller.rb:38: syntax error, unexpected kWHEN, expecting kEND
+          when !row["Type"].index("geo").nil?
+              ^
+D:/Insync/alessandro.emerich@gmail.com/Rails/apps/geoduopo.data.arich.com.br/app/controllers/alfa/tables_controller.rb:40: syntax error, unexpected kELSE, expecting kEND
+D:/Insync/alessandro.emerich@gmail.com/Rails/apps/geoduopo.data.arich.com.br/app/controllers/alfa/tables_controller.rb:227: syntax error, unexpected kEND, expecting $end):
+  activesupport (3.2.13) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:219:in `constantize'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:218:in `each'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__631784418__call__4__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.13) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.13) lib/rails/commands.rb:55
+  railties (3.2.13) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.13) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 13:46:14 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[35mAlfa::Table Load (15.0ms)[0m  SELECT `alfa_tables`.* FROM `alfa_tables` 
+Completed 500 Internal Server Error in 90ms
+
+NameError (undefined local variable or method `result' for #<Alfa::TablesController:0x9375690>):
+  app/controllers/alfa/tables_controller.rb:17:in `index'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (76.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 13:46:43 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[36mAlfa::Table Load (12.0ms)[0m  [1mSELECT `alfa_tables`.* FROM `alfa_tables` [0m
+  [1m[35m (22.0ms)[0m  DESCRIBE 5966c0eb721df9a716ea2c75a0cbc8d7d5f92770c7c5b00ef4d603575266ce89
+  [1m[36m (21.0ms)[0m  [1mDESCRIBE 956871a896568a7748cb6ad701765344cb94430c957e9525f8d0d6c1844dc529[0m
+Completed 200 OK in 115ms (Views: 1.0ms | ActiveRecord: 102.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 13:52:48 -0300 2014
+
+SyntaxError (D:/Insync/alessandro.emerich@gmail.com/Rails/apps/geoduopo.data.arich.com.br/app/controllers/alfa/tables_controller.rb:10: syntax error, unexpected ']', expecting kEND
+    response["nextPageToken"] = params[:token]] #TODO: Precisa?
+                                               ^
+D:/Insync/alessandro.emerich@gmail.com/Rails/apps/geoduopo.data.arich.com.br/app/controllers/alfa/tables_controller.rb:21: syntax error, unexpected '=', expecting ']'
+      table_details["tableId" =  table.name
+                               ^):
+  activesupport (3.2.13) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:219:in `constantize'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:218:in `each'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__631784418__call__4__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.13) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.13) lib/rails/commands.rb:55
+  railties (3.2.13) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.13) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 13:53:06 -0300 2014
+
+SyntaxError (D:/Insync/alessandro.emerich@gmail.com/Rails/apps/geoduopo.data.arich.com.br/app/controllers/alfa/tables_controller.rb:21: syntax error, unexpected '=', expecting ']'
+      table_details["tableId" =  table.name
+                               ^):
+  activesupport (3.2.13) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:219:in `constantize'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:218:in `each'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__631784418__call__4__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.13) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.13) lib/rails/commands.rb:55
+  railties (3.2.13) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.13) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 13:53:18 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[35mAlfa::Table Load (15.0ms)[0m  SELECT `alfa_tables`.* FROM `alfa_tables` 
+  [1m[36m (17.0ms)[0m  [1mDESCRIBE 5966c0eb721df9a716ea2c75a0cbc8d7d5f92770c7c5b00ef4d603575266ce89[0m
+Completed 500 Internal Server Error in 125ms
+
+NoMethodError (undefined method `<<' for #<Hash:0x93ff4f8>):
+  app/controllers/alfa/tables_controller.rb:43:in `index'
+  app/controllers/alfa/tables_controller.rb:26:in `each'
+  app/controllers/alfa/tables_controller.rb:26:in `index'
+  app/controllers/alfa/tables_controller.rb:17:in `each'
+  app/controllers/alfa/tables_controller.rb:17:in `index'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (42.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 13:54:22 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[35mAlfa::Table Load (12.0ms)[0m  SELECT `alfa_tables`.* FROM `alfa_tables` 
+  [1m[36m (15.0ms)[0m  [1mDESCRIBE 5966c0eb721df9a716ea2c75a0cbc8d7d5f92770c7c5b00ef4d603575266ce89[0m
+  [1m[35m (15.0ms)[0m  DESCRIBE 956871a896568a7748cb6ad701765344cb94430c957e9525f8d0d6c1844dc529
+Completed 200 OK in 129ms (Views: 2.0ms | ActiveRecord: 109.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 13:56:47 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[36mAlfa::Table Load (13.0ms)[0m  [1mSELECT `alfa_tables`.* FROM `alfa_tables` [0m
+  [1m[35m (16.0ms)[0m  DESCRIBE 5966c0eb721df9a716ea2c75a0cbc8d7d5f92770c7c5b00ef4d603575266ce89
+Completed 500 Internal Server Error in 142ms
+
+NameError (undefined local variable or method `arr_details' for #<Alfa::TablesController:0x92f2b90>):
+  app/controllers/alfa/tables_controller.rb:45:in `index'
+  app/controllers/alfa/tables_controller.rb:17:in `each'
+  app/controllers/alfa/tables_controller.rb:17:in `index'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 13:58:06 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[36mAlfa::Table Load (14.0ms)[0m  [1mSELECT `alfa_tables`.* FROM `alfa_tables` [0m
+  [1m[35m (42.0ms)[0m  DESCRIBE 5966c0eb721df9a716ea2c75a0cbc8d7d5f92770c7c5b00ef4d603575266ce89
+  [1m[36m (17.0ms)[0m  [1mDESCRIBE 956871a896568a7748cb6ad701765344cb94430c957e9525f8d0d6c1844dc529[0m
+Completed 200 OK in 153ms (Views: 7.0ms | ActiveRecord: 128.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/alfa/table" for 127.0.0.1 at Sun Apr 13 15:22:56 -0300 2014
+
+ActionController::RoutingError (uninitialized constant Alfa::TableController):
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:219:in `constantize'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:218:in `each'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:218:in `constantize'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__438720752__call__4__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.13) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.13) lib/rails/commands.rb:55
+  railties (3.2.13) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.13) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (10.0ms)
+
+
+Started GET "/alfa/table" for 127.0.0.1 at Sun Apr 13 15:25:12 -0300 2014
+
+ActionController::RoutingError (No route matches [GET] "/alfa/table"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.13) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.13) lib/rails/commands.rb:55
+  railties (3.2.13) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.13) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Sun Apr 13 15:27:10 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[36mAlfa::Table Load (37.0ms)[0m  [1mSELECT `alfa_tables`.* FROM `alfa_tables` [0m
+  [1m[35m (20.0ms)[0m  DESCRIBE 5966c0eb721df9a716ea2c75a0cbc8d7d5f92770c7c5b00ef4d603575266ce89
+  [1m[36m (21.0ms)[0m  [1mDESCRIBE 956871a896568a7748cb6ad701765344cb94430c957e9525f8d0d6c1844dc529[0m
+Completed 200 OK in 266ms (Views: 12.0ms | ActiveRecord: 131.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 16:43:55 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  [1m[36mAlfa::Table Load (62.0ms)[0m  [1mSELECT `alfa_tables`.* FROM `alfa_tables` [0m
+  [1m[35m (50.0ms)[0m  DESCRIBE 5966c0eb721df9a716ea2c75a0cbc8d7d5f92770c7c5b00ef4d603575266ce89
+  [1m[36m (42.0ms)[0m  [1mDESCRIBE 956871a896568a7748cb6ad701765344cb94430c957e9525f8d0d6c1844dc529[0m
+Completed 200 OK in 356ms (Views: 12.0ms | ActiveRecord: 221.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 16:44:41 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 4ms
+
+NameError (uninitialized constant ApplicationController::Net):
+  app/controllers/application_controller.rb:6:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 16:45:51 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `authentication_location' for #<Rails::Application::Configuration:0x49a19a8>):
+  app/controllers/application_controller.rb:8:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 16:48:58 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 4ms
+
+NameError (uninitialized constant ApplicationController::Application):
+  app/controllers/application_controller.rb:8:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (42.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 16:49:44 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `authentication_port' for #<Rails::Application::Configuration:0x49a19a8>):
+  app/controllers/application_controller.rb:8:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 16:50:20 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 3ms
+
+NameError (undefined local variable or method `authentication_port' for #<Alfa::TablesController:0x9544a70>):
+  app/controllers/application_controller.rb:8:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 16:51:00 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 7ms
+
+NameError (undefined local variable or method `parms' for #<Alfa::TablesController:0x946db50>):
+  app/controllers/application_controller.rb:9:in `restrict_access'
+  app/controllers/application_controller.rb:8:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (47.0ms)
+
+
+Started GET "/alfa/tables?token=1" for 127.0.0.1 at Mon Apr 21 16:52:01 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"1"}
+Completed 500 Internal Server Error in 18ms
+
+NameError (undefined local variable or method `parms' for #<Alfa::TablesController:0x93ee3f8>):
+  app/controllers/application_controller.rb:9:in `restrict_access'
+  app/controllers/application_controller.rb:8:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 16:52:25 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:9:in `restrict_access'
+  app/controllers/application_controller.rb:8:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 16:52:40 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:9:in `restrict_access'
+  app/controllers/application_controller.rb:8:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 16:53:33 -0300 2014
+
+SyntaxError (D:/Insync/alessandro.emerich@gmail.com/Rails/apps/geoduopo.data.arich.com.br/app/controllers/application_controller.rb:10: syntax error, unexpected '}', expecting ')'
+D:/Insync/alessandro.emerich@gmail.com/Rails/apps/geoduopo.data.arich.com.br/app/controllers/application_controller.rb:15: syntax error, unexpected kEND, expecting '}'):
+  app/controllers/alfa/tables_controller.rb:1
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 16:53:48 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:9:in `restrict_access'
+  app/controllers/application_controller.rb:8:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 16:54:01 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 6ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:9:in `restrict_access'
+  app/controllers/application_controller.rb:8:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (44.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 16:55:47 -0300 2014
+
+SyntaxError (D:/Insync/alessandro.emerich@gmail.com/Rails/apps/geoduopo.data.arich.com.br/app/controllers/application_controller.rb:9: syntax error, unexpected tIDENTIFIER, expecting ')'
+  	url += params[:token].nil? ? " " : params[:token]
+  	   ^):
+  app/controllers/alfa/tables_controller.rb:1
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 16:56:10 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:9:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 16:58:53 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `<<' for nil:NilClass):
+  app/controllers/application_controller.rb:9:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (48.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 17:04:16 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 13ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:14:in `restrict_access'
+  app/controllers/application_controller.rb:13:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 17:04:53 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:05:19 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:13:in `restrict_access'
+  app/controllers/application_controller.rb:12:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:06:18 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+Completed 500 Internal Server Error in 12ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:13:in `restrict_access'
+  app/controllers/application_controller.rb:12:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:08:40 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:14:in `restrict_access'
+  app/controllers/application_controller.rb:13:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:09:26 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+teste
+9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699
+Completed 500 Internal Server Error in 13ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:15:in `restrict_access'
+  app/controllers/application_controller.rb:14:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:20:24 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+teste
+
+Completed 500 Internal Server Error in 14ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:15:in `restrict_access'
+  app/controllers/application_controller.rb:14:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:21:39 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+teste
+
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:15:in `restrict_access'
+  app/controllers/application_controller.rb:14:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:22:23 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+teste
+
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:15:in `restrict_access'
+  app/controllers/application_controller.rb:14:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:23:55 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+teste
+
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:15:in `restrict_access'
+  app/controllers/application_controller.rb:14:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:25:18 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+teste
+
+Completed 500 Internal Server Error in 13ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:15:in `restrict_access'
+  app/controllers/application_controller.rb:14:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:30:26 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+======
+
+
+
+9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699
+======
+Completed 500 Internal Server Error in 17ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:19:in `restrict_access'
+  app/controllers/application_controller.rb:18:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (43.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:31:13 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+======
+Completed 500 Internal Server Error in 3ms
+
+NameError (uninitialized constant ApplicationController::Application):
+  app/controllers/application_controller.rb:13:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (51.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:32:32 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+======
+localhost
+
+
+9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699
+======
+Completed 500 Internal Server Error in 15ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/application_controller.rb:19:in `restrict_access'
+  app/controllers/application_controller.rb:18:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:33:17 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+======
+localhost
+3000
+/alfa/v1/authentications/validate/
+9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699
+======
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 167ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:34:45 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 162ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:35:18 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 236ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 17:35:36 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Completed 500 Internal Server Error in 14ms
+
+TypeError (can't convert nil into String):
+  app/controllers/application_controller.rb:19:in `+'
+  app/controllers/application_controller.rb:19:in `restrict_access'
+  app/controllers/application_controller.rb:18:in `restrict_access'
+
+
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/ruby/lib/ruby/gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (58.0ms)
+
+
+Started GET "/alfa/tables" for 127.0.0.1 at Mon Apr 21 17:36:10 -0300 2014
+Processing by Alfa::TablesController#index as */*
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:36:14 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 205ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:37:40 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+======
+200
+9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699
+======
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 222ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:38:14 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+======
+200
+9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699
+======
+  [1m[36mAlfa::Table Load (16.0ms)[0m  [1mSELECT `alfa_tables`.* FROM `alfa_tables` [0m
+  [1m[35m (26.0ms)[0m  DESCRIBE 5966c0eb721df9a716ea2c75a0cbc8d7d5f92770c7c5b00ef4d603575266ce89
+  [1m[36m (22.0ms)[0m  [1mDESCRIBE 956871a896568a7748cb6ad701765344cb94430c957e9525f8d0d6c1844dc529[0m
+Completed 200 OK in 559ms (Views: 14.0ms | ActiveRecord: 151.0ms)
+
+
+Started GET "/alfa/tables?token=8005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:38:47 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"8005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+======
+401
+8005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699
+======
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 108ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables?token=9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699" for 127.0.0.1 at Mon Apr 21 17:39:01 -0300 2014
+Processing by Alfa::TablesController#index as */*
+  Parameters: {"token"=>"9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699"}
+======
+200
+9005c318855442c8f344a591f01da03be42805f61c879edace5d1869b2dba98254967ca4b729bf1b0c38b5ceca13d04f389776ffa55b4a92a74bb7fa0950e699
+======
+  [1m[35mAlfa::Table Load (34.0ms)[0m  SELECT `alfa_tables`.* FROM `alfa_tables` 
+  [1m[36m (18.0ms)[0m  [1mDESCRIBE 5966c0eb721df9a716ea2c75a0cbc8d7d5f92770c7c5b00ef4d603575266ce89[0m
+  [1m[35m (25.0ms)[0m  DESCRIBE 956871a896568a7748cb6ad701765344cb94430c957e9525f8d0d6c1844dc529
+Completed 200 OK in 316ms (Views: 7.0ms | ActiveRecord: 77.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2014-05-27 22:47:16 -0300
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (86ms)
+
+
+Started GET "/alfa/tables?token=4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9" for 127.0.0.1 at 2014-05-27 22:52:58 -0300
+Processing by Alfa::TablesController#index as HTML
+  Parameters: {"token"=>"4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9"}
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 1202.1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables?token=4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9" for 127.0.0.1 at 2014-05-27 22:54:00 -0300
+Processing by Alfa::TablesController#index as HTML
+  Parameters: {"token"=>"4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9"}
+  [1m[36mAlfa::Table Load (74.0ms)[0m  [1mSELECT `alfa_tables`.* FROM `alfa_tables` [0m
+  [1m[35m (27.0ms)[0m  DESCRIBE 5966c0eb721df9a716ea2c75a0cbc8d7d5f92770c7c5b00ef4d603575266ce89
+  [1m[36m (26.0ms)[0m  [1mDESCRIBE 956871a896568a7748cb6ad701765344cb94430c957e9525f8d0d6c1844dc529[0m
+Completed 200 OK in 283.0ms (Views: 2.0ms | ActiveRecord: 242.0ms)
+
+
+Started GET "/alfa/tables?token=4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9" for 127.0.0.1 at 2014-05-27 22:59:53 -0300
+Processing by Alfa::TablesController#index as HTML
+  Parameters: {"token"=>"4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9"}
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 1082.1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables?token=4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9" for 127.0.0.1 at 2014-05-27 23:07:53 -0300
+Processing by Alfa::TablesController#index as HTML
+  Parameters: {"token"=>"4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9"}
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 1163.1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables?token=4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9" for 127.0.0.1 at 2014-05-27 23:11:26 -0300
+Processing by Alfa::TablesController#index as HTML
+  Parameters: {"token"=>"4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9"}
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 2154.1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables?token=4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9" for 127.0.0.1 at 2014-05-27 23:11:36 -0300
+Processing by Alfa::TablesController#index as HTML
+  Parameters: {"token"=>"4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9"}
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 1085.1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables/4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9" for 127.0.0.1 at 2014-05-27 23:14:33 -0300
+Processing by Alfa::TablesController#show as HTML
+  Parameters: {"id"=>"4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9"}
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 0.0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables/4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9" for 127.0.0.1 at 2014-05-27 23:14:58 -0300
+Processing by Alfa::TablesController#show as HTML
+  Parameters: {"id"=>"4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9"}
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 0.0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables/4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9" for 127.0.0.1 at 2014-05-27 23:15:26 -0300
+Processing by Alfa::TablesController#show as HTML
+  Parameters: {"id"=>"4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9"}
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 0.0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables/4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9" for 127.0.0.1 at 2014-05-27 23:15:30 -0300
+Processing by Alfa::TablesController#show as HTML
+  Parameters: {"id"=>"4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9"}
+Filter chain halted as :restrict_access rendered or redirected
+Completed 401 Unauthorized in 0.0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/alfa/tables?token=4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9" for 127.0.0.1 at 2014-05-27 23:16:42 -0300
+Processing by Alfa::TablesController#index as HTML
+  Parameters: {"token"=>"4f847d98f093097b4f96119ad6d3cd82ea52329889a2b90b46cd88d1f03116ed4da6ae077ad3a79ca9ec7d336ef44bba70aa458d59e91b9c9d02e211b69d6cc9"}
+  [1m[35mAlfa::Table Load (41.0ms)[0m  SELECT `alfa_tables`.* FROM `alfa_tables` 
+  [1m[36m (17.0ms)[0m  [1mDESCRIBE 5966c0eb721df9a716ea2c75a0cbc8d7d5f92770c7c5b00ef4d603575266ce89[0m
+  [1m[35m (22.0ms)[0m  DESCRIBE 956871a896568a7748cb6ad701765344cb94430c957e9525f8d0d6c1844dc529
+Completed 200 OK in 2814.2ms (Views: 1.0ms | ActiveRecord: 161.0ms)
+
+
+Started GET "/alfa/v1/settings?company_id=1&token=5ee740f8fc4714483040ddf5c83c9adc4b2715bd724cedbd81757140e4cab1e370b06cb800e9e3d12c908d9b862fd7aaf2f7ec029babb4cd41da4cc4a713a31a" for 127.0.0.1 at 2014-06-10 13:16:06 -0300
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/alfa/v1/settings"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (5.0ms)
+
+
+Started GET "/alfa/v1/scripts?company_id=1&token=5ee740f8fc4714483040ddf5c83c9adc4b2715bd724cedbd81757140e4cab1e370b06cb800e9e3d12c908d9b862fd7aaf2f7ec029babb4cd41da4cc4a713a31a" for 127.0.0.1 at 2014-06-10 13:16:08 -0300
+
+ActionController::RoutingError (No route matches [GET] "/alfa/v1/scripts"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/alfa/v1/script_details?company_id=1&token=5ee740f8fc4714483040ddf5c83c9adc4b2715bd724cedbd81757140e4cab1e370b06cb800e9e3d12c908d9b862fd7aaf2f7ec029babb4cd41da4cc4a713a31a" for 127.0.0.1 at 2014-06-10 13:16:08 -0300
+
+ActionController::RoutingError (No route matches [GET] "/alfa/v1/script_details"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/alfa/v1/settings?company_id=1&token=5ee740f8fc4714483040ddf5c83c9adc4b2715bd724cedbd81757140e4cab1e370b06cb800e9e3d12c908d9b862fd7aaf2f7ec029babb4cd41da4cc4a713a31a" for 127.0.0.1 at 2014-06-10 13:16:19 -0300
+
+ActionController::RoutingError (No route matches [GET] "/alfa/v1/settings"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/alfa/v1/script_details?company_id=1&token=5ee740f8fc4714483040ddf5c83c9adc4b2715bd724cedbd81757140e4cab1e370b06cb800e9e3d12c908d9b862fd7aaf2f7ec029babb4cd41da4cc4a713a31a" for 127.0.0.1 at 2014-06-10 13:16:19 -0300
+
+ActionController::RoutingError (No route matches [GET] "/alfa/v1/script_details"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/alfa/v1/scripts?company_id=1&token=5ee740f8fc4714483040ddf5c83c9adc4b2715bd724cedbd81757140e4cab1e370b06cb800e9e3d12c908d9b862fd7aaf2f7ec029babb4cd41da4cc4a713a31a" for 127.0.0.1 at 2014-06-10 13:16:19 -0300
+
+ActionController::RoutingError (No route matches [GET] "/alfa/v1/scripts"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2014-06-17 19:50:52 -0300
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (5ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2014-06-17 19:51:10 -0300
+Served asset /rails.png - 200 OK (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2014-06-17 19:52:24 -0300
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2014-06-17 19:53:12 -0300
+Served asset /rails.png - 304 Not Modified (0ms)

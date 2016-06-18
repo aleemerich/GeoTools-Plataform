@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  worktable: 
+  user: 
+  to: MyString
+  name: MyString
+  geometry_type: 1
+  geometry_field: MyString
+  geometry_field_aux: MyString
+  outline_color: MyString
+  fill_color: MyString
+  maximum_zoom: 9.99
+  minimum_zoom: 9.99
+  observation: MyText
+  deleted: false
+
+two:
+  worktable: 
+  user: 
+  to: MyString
+  name: MyString
+  geometry_type: 1
+  geometry_field: MyString
+  geometry_field_aux: MyString
+  outline_color: MyString
+  fill_color: MyString
+  maximum_zoom: 9.99
+  minimum_zoom: 9.99
+  observation: MyText
+  deleted: false

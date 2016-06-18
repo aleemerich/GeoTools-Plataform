@@ -1,0 +1,112 @@
+/* ELEMENTOS*/
+
+html, body {
+    height: 100%;
+}
+
+body {
+	/*padding-top: 50px;*/
+	vertical-align: middle;
+}
+
+
+
+
+/*CLASSES DE CSS*/
+
+.head-search {
+  	/*font-size: 26px;*/
+  	padding-top: 15px !important;
+}
+
+.head-search-span {
+	width: 202px;
+}
+
+.icon-middle {
+	vertical-align: middle !important;
+}
+
+.head-button {
+	padding-bottom: 15px;
+}
+
+.title {
+	color: #ffffff !important;
+}
+
+.arich-modal-ul {
+	list-style-type: square;
+	margin-left: 12px;
+}
+
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+
+.no-margin { 
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.scroll-result{
+    overflow: auto;
+    max-height: 400px;
+}
+
+
+
+
+
+
+/*ELEMENTOS IDENTIFICADOS*/
+
+#div_fill_opacity {
+    width:250px;
+}
+
+#footer {
+    padding-top: 12px;
+    text-align: center;
+    padding-bottom: -6px;
+}
+
+#map_default {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+#map_default img { max-width: none; }
+
+#map_default label { width: auto; display: inline; }
+
+#map_layer {
+	width:300px; 
+	padding: 8px 8px 8px 8px;
+	margin: 8px 8px 8px 8px;
+    position: absolute;
+    z-index: 100;
+    right: 2%;
+    top: 20%;
+    background-color: #fff;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-box-shadow: 0 0 12px 3px #b0b2ab;
+    -webkit-box-shadow: 0 0 12px 3px #b0b2ab;
+    box-shadow: 0 0 12px 3px #b0b2ab;
+}
+
+
+#map_layer .navbar{
+    cursor: move;
+}
+
+#dialog-message {
+	z-index: 9999;
+}

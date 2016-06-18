@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  script_detail_id: MyString
+  script: 
+  function_exec: MyString
+  description: MyString
+  params: MyText
+  order: 1
+  remote: false
+  deleted: false
+
+two:
+  script_detail_id: MyString
+  script: 
+  function_exec: MyString
+  description: MyString
+  params: MyText
+  order: 1
+  remote: false
+  deleted: false

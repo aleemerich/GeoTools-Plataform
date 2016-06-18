@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  company: 
+  name: MyString
+  email: MyString
+  password: MyString
+  blocked: false
+  change_password: false
+  date_expiration: 2013-03-31
+
+two:
+  company: 
+  name: MyString
+  email: MyString
+  password: MyString
+  blocked: false
+  change_password: false
+  date_expiration: 2013-03-31

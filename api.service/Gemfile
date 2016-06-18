@@ -1,0 +1,8 @@
+source 'http://gems.github.com'
+source 'https://rubygems.org'
+
+gem 'rails', '3.2.13'
+gem 'mysql2'
+
+# Adicionando essa GEM para atender requisições cross-browsers
+gem 'rack-cors', :require => 'rack/cors'

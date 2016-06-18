@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  company: 
+  layer: 
+  date_expirate: 2013-09-01
+
+two:
+  company: 
+  layer: 
+  date_expirate: 2013-09-01

@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  script_ids: MyString
+  companies: 
+  key_action: MyString
+  name: MyString
+  description: MyString
+  order: 1
+  deleted: false
+
+two:
+  script_ids: MyString
+  companies: 
+  key_action: MyString
+  name: MyString
+  description: MyString
+  order: 1
+  deleted: false

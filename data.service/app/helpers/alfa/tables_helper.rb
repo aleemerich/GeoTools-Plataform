@@ -1,0 +1,2 @@
+module Alfa::TablesHelper
+end
