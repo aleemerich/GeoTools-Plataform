@@ -1,4 +1,4 @@
-# Sejam bem vindos!
+# Plataforma para Geotecnologias
 
 ## Qual a finalidade deste projeto?
 
