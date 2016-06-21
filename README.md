@@ -15,21 +15,7 @@ Após fechar os conceitos e funcionalidades vistas no protótipo, passou-se ent�
 
 Baseado nesses pontos, foi planejado a seguinte arquitetura para esse projetos:
 
-             UI 1          UI 2           UI 3
-          
-                             |
-            
-                      Pool JavaScript
-          
-
-                             |
-
-                         API Server
- 
-            /                |                |            \
-
-      DataServer 1     DataServer 2     DataServer 1      FusionTable
-
+![Fluxo Geral](https://github.com/aleemerich/GeoTools-Plataform/blob/master/readme_fluxo.png)
 
 
 Frente ao esboço de diagrama acima, foram construídos:
